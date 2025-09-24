@@ -47,16 +47,22 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        sidebar: {
-          DEFAULT: "hsl(var(--sidebar-background))",
-          foreground: "hsl(var(--sidebar-foreground))",
-          primary: "hsl(var(--sidebar-primary))",
-          "primary-foreground": "hsl(var(--sidebar-primary-foreground))",
-          accent: "hsl(var(--sidebar-accent))",
-          "accent-foreground": "hsl(var(--sidebar-accent-foreground))",
-          border: "hsl(var(--sidebar-border))",
-          ring: "hsl(var(--sidebar-ring))",
-        },
+        // Clairvoix brand colors
+        "pale-blush": "hsl(var(--pale-blush))",
+        "cream": "hsl(var(--cream))",
+        "soft-cream": "hsl(var(--soft-cream))",
+        "warm-brown": "hsl(var(--warm-brown))",
+        "deep-brown": "hsl(var(--deep-brown))",
+        "muted-rose": "hsl(var(--muted-rose))",
+        "peachy-pink": "hsl(var(--peachy-pink))",
+      },
+      boxShadow: {
+        'warm': 'var(--shadow-warm)',
+        'elegant': 'var(--shadow-elegant)',
+      },
+      backgroundImage: {
+        'gradient-warm': 'var(--gradient-warm)',
+        'gradient-subtle': 'var(--gradient-subtle)',
       },
       borderRadius: {
         lg: "var(--radius)",
