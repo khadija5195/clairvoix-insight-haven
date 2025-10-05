@@ -23,9 +23,9 @@ const Services = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Our <span className="text-primary">Services</span>
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-2xl text-muted-foreground mb-8 max-w-5xl mx-auto leading-relaxed">
             Comprehensive analytics solutions tailored for every segment of the hospitality industry. 
-            From hotels to fast food chains, we have the expertise to drive your success.
+            From hotels to fast food chains, we have the expertise to drive your success by making your customers satisfied.
           </p>
         </div>
       </section>
@@ -37,7 +37,7 @@ const Services = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
               Our Core Specializations
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-2xl text-muted-foreground max-w-5xl mx-auto">
               Deep expertise in the two largest segments of the hospitality industry.
             </p>
           </div>
@@ -49,9 +49,9 @@ const Services = () => {
                 <div className="mx-auto w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Building2 className="h-8 w-8 text-primary" />
                 </div>
-                <Badge variant="secondary" className="mb-2">CORE SPECIALIZATION</Badge>
-                <CardTitle className="text-2xl text-primary">Hotel Analytics</CardTitle>
-                <CardDescription className="text-base">
+                <Badge variant="secondary" className="mb-5">CORE SPECIALIZATION</Badge>
+                <CardTitle className="text-3xl text-primary">Hotel Analytics</CardTitle>
+                <CardDescription className="text-base text-lg">
                   Comprehensive revenue management and operational optimization for hotels and resorts.
                 </CardDescription>
               </CardHeader>
@@ -61,27 +61,27 @@ const Services = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Revenue per Room</span>
+                      <span className="text-lg">Real-time Guest Sentiment Analysis</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Occupancy Optimization</span>
+                      <span className="text-lg">Experience Insight Dashboard</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Guest Satisfaction</span>
+                      <span className="text-lg">Guest Satisfaction</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Competitive Analysis</span>
+                      <span className="text-lg">Competitive Analysis</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Seasonal Forecasting</span>
+                      <span className="text-lg">Satisfaction & Revenue Correlation</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Cost Management</span>
+                      <span className="text-lg">AI Generated Insights</span>
                     </div>
                   </div>
                 </div>
@@ -98,8 +98,8 @@ const Services = () => {
                   <UtensilsCrossed className="h-8 w-8 text-primary" />
                 </div>
                 <Badge variant="secondary" className="mb-2">CORE SPECIALIZATION</Badge>
-                <CardTitle className="text-2xl text-primary">Restaurant Analytics</CardTitle>
-                <CardDescription className="text-base">
+                <CardTitle className="text-3xl text-primary">Restaurant Analytics</CardTitle>
+                <CardDescription className="text-base text-lg">
                   Advanced insights for fine dining, casual dining, and restaurant chains.
                 </CardDescription>
               </CardHeader>
@@ -109,27 +109,27 @@ const Services = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Menu Performance</span>
+                      <span className="text-lg">Sentiment Breakdown</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Table Turnover</span>
+                      <span className="text-lg">Service Touch point insights</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Peak Hours Analysis</span>
+                      <span className="text-lg">Real-time Feedback Monitoring</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Customer Preferences</span>
+                      <span className="text-lg">Customer Preferences</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Staff Productivity</span>
+                      <span className="text-lg">Staff Productivity</span>
                     </div>
                     <div className="flex items-center space-x-2">
                       <CheckCircle className="h-4 w-4 text-primary" />
-                      <span className="text-sm">Inventory Tracking</span>
+                      <span className="text-lg">AI Driven Insights</span>
                     </div>
                   </div>
                 </div>
@@ -146,10 +146,10 @@ const Services = () => {
       <section className="py-16 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+            <h2 className="text-4xl md:text-4xl font-bold mb-4 text-foreground">
               Additional Services
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-2xl text-muted-foreground max-w-5xl mx-auto">
               Expanding our expertise to cover all segments of the hospitality industry.
             </p>
           </div>
@@ -161,18 +161,18 @@ const Services = () => {
                 <div className="mx-auto w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                   <Coffee className="h-6 w-6 text-accent-foreground" />
                 </div>
-                <CardTitle className="text-xl">Cafe & Coffee Shop Analytics</CardTitle>
-                <CardDescription>
+                <CardTitle className="text-2xl">Cafe & Coffee Shop Analytics</CardTitle>
+                <CardDescription className="text-base text-lg">
                   Specialized solutions for independent cafes and coffee shop chains.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Customer flow optimization</li>
-                  <li>• Beverage performance tracking</li>
+                <ul className="space-y-2 text-lg text-muted-foreground">
+                  <li>• Customer sentiment analysis</li>
+                  <li>• Menu & Beverage Feedback Trends</li>
                   <li>• Loyalty program insights</li>
                   <li>• Seasonal trend analysis</li>
-                  <li>• Supply chain optimization</li>
+                  <li>• Operational Efficiency Insights</li>
                 </ul>
                 <Button variant="secondary" className="w-full" asChild>
                   <Link to="/contact">Learn More</Link>
@@ -186,17 +186,17 @@ const Services = () => {
                 <div className="mx-auto w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center mb-4">
                   <Zap className="h-6 w-6 text-accent-foreground" />
                 </div>
-                <CardTitle className="text-xl">Fast Food Chain Analytics</CardTitle>
-                <CardDescription>
+                <CardTitle className="text-2xl">Fast Food Chain Analytics</CardTitle>
+                <CardDescription className="text-base text-lg">
                   Multi-location insights for quick service restaurant chains.
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
-                <ul className="space-y-2 text-sm text-muted-foreground">
+                <ul className="space-y-2 text-lg text-muted-foreground">
                   <li>• Multi-location performance tracking</li>
                   <li>• Drive-through efficiency</li>
-                  <li>• Franchise comparison</li>
-                  <li>• Supply chain analytics</li>
+                  <li>• Experience Factors</li>
+                  <li>• Quality & Consistency Insights</li>
                   <li>• Speed of service optimization</li>
                 </ul>
                 <Button variant="secondary" className="w-full" asChild>
@@ -215,7 +215,7 @@ const Services = () => {
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
               Powerful Analytics Features
             </h2>
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Advanced tools and insights available across all our service offerings.
             </p>
           </div>
@@ -226,10 +226,10 @@ const Services = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <BarChart3 className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Real-Time Dashboards</CardTitle>
+                <CardTitle className="text-xl">Real-Time Dashboards</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-sm">
+                <CardDescription className="text-lg">
                   Live monitoring of key performance indicators with customizable views.
                 </CardDescription>
               </CardContent>
@@ -240,10 +240,10 @@ const Services = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <TrendingUp className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Predictive Analytics</CardTitle>
+                <CardTitle className="text-xl">Predictive Analytics</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-sm">
+                <CardDescription className="text-lg">
                   Forecast trends and anticipate business needs with AI-powered predictions.
                 </CardDescription>
               </CardContent>
@@ -254,10 +254,10 @@ const Services = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Customer Insights</CardTitle>
+                <CardTitle className="text-xl">Customer Insights</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-sm">
+                <CardDescription className="text-lg">
                   Deep understanding of customer behavior and preferences.
                 </CardDescription>
               </CardContent>
@@ -268,10 +268,10 @@ const Services = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Settings className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Custom Integration</CardTitle>
+                <CardTitle className="text-xl">Custom Integration</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription className="text-sm">
+                <CardDescription className="text-lg">
                   Seamless integration with your existing systems and workflows.
                 </CardDescription>
               </CardContent>

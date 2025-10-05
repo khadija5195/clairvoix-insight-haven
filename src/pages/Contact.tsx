@@ -15,7 +15,7 @@ const Contact = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Get in <span className="text-primary">Touch</span>
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-xl italic text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Ready to transform your hospitality business with data-driven insights? 
             Let's discuss how Clairvoix can help you achieve your goals.
           </p>
@@ -37,17 +37,17 @@ const Contact = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <div className="space-y-2">
                     <Label htmlFor="firstName">First Name *</Label>
-                    <Input id="firstName" placeholder="John" />
+                    <Input id="firstName" placeholder="Muhammad" />
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="lastName">Last Name *</Label>
-                    <Input id="lastName" placeholder="Doe" />
+                    <Input id="lastName" placeholder="Hassan" />
                   </div>
                 </div>
 
                 <div className="space-y-2">
                   <Label htmlFor="email">Email Address *</Label>
-                  <Input id="email" type="email" placeholder="john@example.com" />
+                  <Input id="email" type="email" placeholder="hassan@example.com" />
                 </div>
 
                 <div className="space-y-2">
@@ -57,7 +57,7 @@ const Contact = () => {
 
                 <div className="space-y-2">
                   <Label htmlFor="phone">Phone Number</Label>
-                  <Input id="phone" type="tel" placeholder="+1 (555) 123-4567" />
+                  <Input id="phone" type="tel" placeholder="+92 300 0000000" />
                 </div>
 
                 <div className="space-y-2">
@@ -83,10 +83,10 @@ const Contact = () => {
                       <SelectValue placeholder="What are you most interested in?" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="hotel-analytics">Hotel Analytics</SelectItem>
-                      <SelectItem value="restaurant-analytics">Restaurant Analytics</SelectItem>
-                      <SelectItem value="cafe-analytics">Cafe Analytics</SelectItem>
-                      <SelectItem value="fastfood-analytics">Fast Food Analytics</SelectItem>
+                      <SelectItem value="hotel-analytics">Hotel Customer Analytics</SelectItem>
+                      <SelectItem value="restaurant-analytics">Restaurant Customer Analytics</SelectItem>
+                      <SelectItem value="cafe-analytics">Cafe Customer Analytics</SelectItem>
+                      <SelectItem value="fastfood-analytics">Fast Food Customer Analytics</SelectItem>
                       <SelectItem value="demo">Schedule a Demo</SelectItem>
                       <SelectItem value="consultation">Free Consultation</SelectItem>
                     </SelectContent>
@@ -130,7 +130,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Email</p>
-                    <p className="text-sm text-muted-foreground">contact@clairvoix.com</p>
+                    <p className="text-sm text-muted-foreground">clairvoixx@gmail.com</p>
                   </div>
                 </div>
 
@@ -140,7 +140,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-medium">Phone</p>
-                    <p className="text-sm text-muted-foreground">+1 (555) 123-4567</p>
+                    <p className="text-sm text-muted-foreground">+92 322 4338006</p>
                   </div>
                 </div>
 
@@ -151,8 +151,8 @@ const Contact = () => {
                   <div>
                     <p className="font-medium">Address</p>
                     <p className="text-sm text-muted-foreground">
-                      123 Business Ave, Suite 100<br />
-                      New York, NY 10001
+                      Near Faisal Town, Lahore<br />
+                      Pakistan, 54700
                     </p>
                   </div>
                 </div>
@@ -221,8 +221,8 @@ const Contact = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Clock className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold mb-2">Fast Response</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-semibold text-xl mb-2">Fast Response</h3>
+              <p className="text-lg text-muted-foreground">
                 24-hour response time guaranteed for all inquiries.
               </p>
             </div>
@@ -231,8 +231,8 @@ const Contact = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Mail className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold mb-2">Expert Consultation</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-semibold text-xl mb-2">Expert Consultation</h3>
+              <p className="text-lg text-muted-foreground">
                 Free initial consultation with our hospitality analytics experts.
               </p>
             </div>
@@ -241,8 +241,8 @@ const Contact = () => {
               <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <Phone className="h-8 w-8 text-primary" />
               </div>
-              <h3 className="font-semibold mb-2">Ongoing Support</h3>
-              <p className="text-sm text-muted-foreground">
+              <h3 className="font-semibold text-xl mb-2">Ongoing Support</h3>
+              <p className="text-lg text-muted-foreground">
                 Dedicated support team available 24/7 for all clients.
               </p>
             </div>

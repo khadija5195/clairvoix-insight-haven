@@ -37,8 +37,8 @@ All colors MUST be HSL.
     --secondary: var(--muted-rose);
     --secondary-foreground: 0 0% 0%;
 
-    --muted: var(--soft-cream);
-    --muted-foreground: var(--warm-brown);
+    --muted: 0 0% 0%;              /* black */
+    --muted-foreground: 0 0% 0%; /* white for contrast */
 
     --accent: var(--peachy-pink);
     --accent-foreground: 0 0% 0%;

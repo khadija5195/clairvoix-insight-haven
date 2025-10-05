@@ -22,7 +22,7 @@ const Dashboard = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Dashboard <span className="text-primary">Demo</span>
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
             Experience the power of Clairvoix analytics with our interactive demo. 
             See how our insights can transform your hospitality business.
           </p>
@@ -40,9 +40,9 @@ const Dashboard = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-medium text-muted-foreground">Total Revenue</p>
-                    <p className="text-2xl font-bold text-foreground">$124,532</p>
-                    <p className="text-xs text-green-600">+12.5% from last month</p>
+                    <p className="text-lg font-medium text-muted-foreground">Average Satisfaction</p>
+                    <p className="text-2xl font-bold text-foreground">4.2/5</p>
+                    <p className="text-sm font-bold text-green-600">+12.5% from last month</p>
                   </div>
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <DollarSign className="h-6 w-6 text-primary" />
@@ -55,9 +55,9 @@ const Dashboard = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-medium text-muted-foreground">Occupancy Rate</p>
-                    <p className="text-2xl font-bold text-foreground">87.3%</p>
-                    <p className="text-xs text-green-600">+5.2% from last month</p>
+                    <p className="text-lg font-medium text-muted-foreground">Average Service Quality</p>
+                    <p className="text-2xl font-bold text-foreground">3.9/5</p>
+                    <p className="text-sm font-bold text-green-600">+5.2% from last month</p>
                   </div>
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Building2 className="h-6 w-6 text-primary" />
@@ -70,9 +70,9 @@ const Dashboard = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-medium text-muted-foreground">Customer Satisfaction</p>
+                    <p className="text-lg font-medium text-muted-foreground">Customer Satisfaction</p>
                     <p className="text-2xl font-bold text-foreground">4.8/5</p>
-                    <p className="text-xs text-green-600">+0.3 from last month</p>
+                    <p className="text-sm font-bold text-green-600">+0.3 from last month</p>
                   </div>
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Users className="h-6 w-6 text-primary" />
@@ -85,9 +85,9 @@ const Dashboard = () => {
               <CardContent className="p-6">
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className="text-sm font-medium text-muted-foreground">Avg Response Time</p>
-                    <p className="text-2xl font-bold text-foreground">2.3min</p>
-                    <p className="text-xs text-green-600">-15% from last month</p>
+                    <p className="text-lg font-medium text-muted-foreground">Value to Price Index</p>
+                    <p className="text-2xl font-bold text-foreground">3.0/5</p>
+                    <p className="text-sm font-bold text-green-600">+1.5% from last month</p>
                   </div>
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Clock className="h-6 w-6 text-primary" />
@@ -110,9 +110,9 @@ const Dashboard = () => {
                   <div className="mx-auto w-16 h-16 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                     <BarChart3 className="h-8 w-8 text-primary" />
                   </div>
-                  <CardTitle className="text-2xl">Power BI Dashboard Integration</CardTitle>
+                  <CardTitle className="text-2xl">Power BI Dashboard</CardTitle>
                   <CardDescription className="text-base">
-                    This area is reserved for your custom Power BI dashboard embedding.
+                    This area is reserved for your custom dashboard embedding.
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="text-center space-y-6">
@@ -183,28 +183,28 @@ const Dashboard = () => {
               {/* Recent Insights */}
               <Card className="border border-border bg-card shadow-elegant">
                 <CardHeader>
-                  <CardTitle className="text-xl">Recent Insights</CardTitle>
-                  <CardDescription>
+                  <CardTitle className="text-2xl">Recent Insights</CardTitle>
+                  <CardDescription className="text-lg">
                     AI-generated recommendations
                   </CardDescription>
                 </CardHeader>
                 <CardContent className="space-y-4">
                   <div className="border-l-4 border-primary pl-4">
-                    <p className="text-sm font-medium text-foreground">Revenue Opportunity</p>
-                    <p className="text-xs text-muted-foreground">
-                      Increase weekend rates by 15% to match market demand
+                    <p className="text-lg font-medium text-foreground">Experience Gap</p>
+                    <p className="text-sm text-muted-foreground">
+                      Slight negative gap (-0.2). Align staff behavior with guest expectations.
                     </p>
                   </div>
                   <div className="border-l-4 border-accent pl-4">
-                    <p className="text-sm font-medium text-foreground">Staffing Alert</p>
-                    <p className="text-xs text-muted-foreground">
-                      Consider additional staff for Friday evening peak hours
+                    <p className="text-lg font-medium text-foreground">Guest Satisfaction Boost</p>
+                    <p className="text-sm text-muted-foreground">
+                      Up 12.5% this month. Guests are noticing and appreciating the improvements.
                     </p>
                   </div>
                   <div className="border-l-4 border-secondary pl-4">
-                    <p className="text-sm font-medium text-foreground">Menu Optimization</p>
-                    <p className="text-xs text-muted-foreground">
-                      Top 3 dishes account for 45% of revenue - promote more
+                    <p className="text-lg font-medium text-foreground">Service Quality Rise</p>
+                    <p className="text-sm text-muted-foreground">
+                      Service ratings climbed 5.2%, showing stronger team performance.
                     </p>
                   </div>
                 </CardContent>
@@ -216,13 +216,13 @@ const Dashboard = () => {
                   <CardTitle className="text-xl">Quick Actions</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3">
-                  <Button variant="outline" size="sm" className="w-full">
+                  <Button variant="outline" size="lg" className="w-full">
                     Generate Report
                   </Button>
-                  <Button variant="outline" size="sm" className="w-full">
+                  <Button variant="outline" size="lg" className="w-full">
                     Schedule Analysis
                   </Button>
-                  <Button variant="outline" size="sm" className="w-full">
+                  <Button variant="outline" size="lg" className="w-full">
                     Set Alert
                   </Button>
                 </CardContent>
@@ -236,7 +236,7 @@ const Dashboard = () => {
       <section className="py-16 px-4 bg-card/30">
         <div className="container mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-bold mb-4 text-foreground">What You'll Get</h2>
+            <h2 className="text-4xl font-bold mb-4 text-foreground">What You'll Get</h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Your actual dashboard will include these powerful features and more.
             </p>
@@ -248,10 +248,10 @@ const Dashboard = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <BarChart3 className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Real-Time Analytics</CardTitle>
+                <CardTitle className="text-xl">Real-Time Analytics</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-lg">
                   Live data updates with interactive charts and customizable views for immediate insights.
                 </CardDescription>
               </CardContent>
@@ -262,10 +262,10 @@ const Dashboard = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <TrendingUp className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Predictive Insights</CardTitle>
+                <CardTitle className="text-xl">Predictive Insights</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-lg">
                   AI-powered forecasting and trend analysis to help you stay ahead of market changes.
                 </CardDescription>
               </CardContent>
@@ -276,10 +276,10 @@ const Dashboard = () => {
                 <div className="mx-auto w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Users className="h-6 w-6 text-primary" />
                 </div>
-                <CardTitle className="text-lg">Customer Intelligence</CardTitle>
+                <CardTitle className="text-xl">Customer Intelligence</CardTitle>
               </CardHeader>
               <CardContent>
-                <CardDescription>
+                <CardDescription className="text-lg">
                   Deep customer behavior analysis and segmentation for personalized experiences.
                 </CardDescription>
               </CardContent>

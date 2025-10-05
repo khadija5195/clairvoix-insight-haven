@@ -10,8 +10,8 @@ const Blogs = () => {
       title: "5 Key Metrics Every Hotel Manager Should Track",
       excerpt: "Discover the essential performance indicators that can transform your hotel's profitability and guest satisfaction.",
       category: "Hotel Analytics",
-      author: "Sarah Chen",
-      date: "March 15, 2024",
+      author: "Khadija Zafar",
+      date: "August 15, 2025",
       readTime: "5 min read",
       featured: true,
     },
@@ -20,8 +20,8 @@ const Blogs = () => {
       title: "Restaurant Revenue Optimization: A Data-Driven Approach",
       excerpt: "Learn how top restaurants use analytics to increase table turnover, optimize pricing, and boost profitability.",
       category: "Restaurant Analytics",
-      author: "Michael Rodriguez",
-      date: "March 12, 2024",
+      author: "Roha Abid",
+      date: "August 20, 2025",
       readTime: "7 min read",
       featured: true,
     },
@@ -30,28 +30,28 @@ const Blogs = () => {
       title: "The Future of Hospitality: AI and Predictive Analytics",
       excerpt: "Explore how artificial intelligence is revolutionizing customer service and operational efficiency in hospitality.",
       category: "Industry Trends",
-      author: "Dr. Emily Watson",
-      date: "March 10, 2024",
+      author: "Khadija Zafar",
+      date: "September 10, 2025",
       readTime: "6 min read",
       featured: false,
     },
     {
       id: 4,
-      title: "Coffee Shop Success: Understanding Peak Hours and Customer Flow",
-      excerpt: "How independent cafes can use customer flow data to optimize staffing and inventory management.",
+      title: "Coffee Shop Success: Understanding Customer Requirements and Needs",
+      excerpt: "How independent cafes can use customer feedback data to optimize staffing and inventory management.",
       category: "Cafe Analytics",
-      author: "James Thompson",
-      date: "March 8, 2024",
+      author: "Khadija Zafar",
+      date: "September 19, 2025",
       readTime: "4 min read",
       featured: false,
     },
     {
       id: 5,
       title: "Multi-Location Management: Insights for Restaurant Chains",
-      excerpt: "Best practices for monitoring and optimizing performance across multiple restaurant locations.",
+      excerpt: "Best practices for monitoring and optimizing performance and customer satisfaction across multiple restaurant locations.",
       category: "Chain Management",
-      author: "Lisa Park",
-      date: "March 5, 2024",
+      author: "Roha Abid",
+      date: "September 25, 2025",
       readTime: "8 min read",
       featured: false,
     },
@@ -60,8 +60,8 @@ const Blogs = () => {
       title: "Customer Satisfaction Tracking: Beyond Star Ratings",
       excerpt: "Advanced methods for measuring and improving guest satisfaction in the digital age.",
       category: "Customer Experience",
-      author: "Robert Kim",
-      date: "March 3, 2024",
+      author: "Khadija Zafar",
+      date: "September 28, 2025",
       readTime: "5 min read",
       featured: false,
     },
@@ -77,9 +77,9 @@ const Blogs = () => {
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
             Insights & <span className="text-primary">Resources</span>
           </h1>
-          <p className="text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-2xl text-muted-foreground mb-8 max-w-5xl mx-auto leading-relaxed">
             Stay ahead of industry trends with expert insights, best practices, and actionable strategies 
-            for hospitality analytics and business optimization.
+            for hospitality analytics and business optimization by satisfying your customers.
           </p>
         </div>
       </section>
@@ -87,12 +87,12 @@ const Blogs = () => {
       {/* Category Filter */}
       <section className="px-4 pb-8">
         <div className="container mx-auto">
-          <div className="flex flex-wrap justify-center gap-2 mb-8">
+          <div className="flex flex-wrap justify-center gap-4 mb-8">
             {categories.map((category) => (
               <Badge
                 key={category}
                 variant={category === "All" ? "default" : "secondary"}
-                className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors px-4 py-2"
+                className="cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors px-5 py-3 text-lg font-semibold"
               >
                 {category}
               </Badge>
@@ -111,7 +111,7 @@ const Blogs = () => {
                 <CardHeader>
                   <div className="flex items-center justify-between mb-3">
                     <Badge variant="secondary">{post.category}</Badge>
-                    <Badge className="bg-primary/10 text-primary border-primary/20">Featured</Badge>
+                    <Badge className="bg-primary/10 text-primary border-primary/20 text-lg">Featured</Badge>
                   </div>
                   <CardTitle className="text-xl mb-2">{post.title}</CardTitle>
                   <CardDescription className="text-base leading-relaxed">
@@ -200,8 +200,8 @@ const Blogs = () => {
                   Subscribe
                 </Button>
               </div>
-              <p className="text-sm opacity-75 mt-4">
-                Join 2,000+ hospitality professionals already subscribed.
+              <p className="text-lg opacity-75 mt-4">
+                Join us! Hospitality professionals already subscribed.
               </p>
             </CardContent>
           </Card>

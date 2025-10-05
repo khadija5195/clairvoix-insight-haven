@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
-import clairvoixLogo from "@/assets/clairvoix-logo.jpg";
+import clairvoixLogo from "@/assets/clairvoix-logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,7 +28,7 @@ const Header = () => {
             <img 
               src={clairvoixLogo} 
               alt="Clairvoix Logo" 
-              className="h-8 w-auto object-contain"
+              className="h-20 w-auto object-contain"
             />
           </Link>
 
